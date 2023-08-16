@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url(Images/tesla-model-3.jpg);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+}
+.logo img {
+    height: 12px;
+    width: 120px;
+    margin-top: 18px;
+    margin-left: 26%;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    cursor: pointer;
+
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+
+
+}
+.shop-nav {
+    margin-right: 0;
+    padding-right: 0;
+}
+.login {
+    margin-top: 15px;
+    margin-right: 4%;
+    cursor: pointer;
+
+}
+.login .fa-logo {
+    font-size: 18px;
+    margin-right: 10px;
+
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.car-details h1 {
+    font-size: 36px;
+    padding-bottom: 12px;
+
+}
+
+.car-details p {
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+}
+.btn {
+    height: 40px;
+    width: 264px;
+    padding: 4px 24px;
+    border-radius: 4px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.explore-btn {
+    background-color: rgba(244, 244, 244, 0.8);
+    margin-right: 20px;
+    
+}
+.order-btn {
+    background-color: rgba(23, 26, 32, 0.65);
+    color: white;
+    
+}
